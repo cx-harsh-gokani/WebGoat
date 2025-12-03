@@ -40,14 +40,14 @@ jobs:
           # Select a Checkmarx Project
           project: DSVW-GitHub-action
           # Select an Application Name used by downstream bug tracker systems
-          app: DSVW
+          #app: DSVW
           # Select a Checkmarx Preset
-          preset: All # optional, default is Checkmarx Default
+          #preset: All # optional, default is Checkmarx Default
           # Break build based on Checkmarx findings?
           #break_build: # optional
           # Incremental Scans?
           incremental: false
           # GitHub API Token (note: you don't have to create secrets.GITHUB_TOKEN, it is created automatically and will not appear in your repo's custom secrets)
-          github_token: ${{secrets.GITHUB_TOKEN}}
+          github_token: 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
           # extra parameters
           
