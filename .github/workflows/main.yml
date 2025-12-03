@@ -28,7 +28,7 @@ jobs:
         uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.0-9.x
         with:
           # Provide Checkmarx URL
-          checkmarx_url: http://harshg-lt/cxwebclient/
+          checkmarx_url: https://harshg-lt/cxwebclient/
           # Provide team
           team: /CxServer
           # Provide Checkmarx Username
@@ -38,7 +38,7 @@ jobs:
           # Provide Checkmarx Client Secret
           checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C
           # Select a Checkmarx Project
-          project: DSVW-GitHub-action
+          project: GA_Webgoat
           # Select an Application Name used by downstream bug tracker systems
           #app: DSVW
           # Select a Checkmarx Preset
@@ -48,6 +48,6 @@ jobs:
           # Incremental Scans?
           incremental: false
           # GitHub API Token (note: you don't have to create secrets.GITHUB_TOKEN, it is created automatically and will not appear in your repo's custom secrets)
-          github_token: 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
+          github_token: ${{secrets.GITHUB_TOKEN}}
           # extra parameters
           
