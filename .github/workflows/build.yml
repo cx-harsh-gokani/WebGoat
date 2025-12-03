@@ -29,7 +29,7 @@ jobs:
         uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.0-9.x
         with:
           # Provide Checkmarx URL
-          checkmarx_url: https://cxapactrial.checkmarx.net/ # SAST URL
+          checkmarx_url: http://harshg-lt/ # SAST URL
           # Provide team
           team: /CxServer
           # Provide Checkmarx Username
