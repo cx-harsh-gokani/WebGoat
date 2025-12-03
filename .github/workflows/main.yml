@@ -28,7 +28,7 @@ jobs:
         uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.0-9.x
         with:
           # Provide Checkmarx URL
-          checkmarx_url: http://harshg-lt/
+          checkmarx_url: http://harshg-lt/cxwebclient/
           # Provide team
           team: /CxServer
           # Provide Checkmarx Username
